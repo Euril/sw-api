@@ -28,6 +28,37 @@
   color: #61dafb;
 }
 
+.container{
+  border: 1px solid black;
+  width: 200px;
+  display: grid;
+  justify-items: center;
+  padding: 30px;
+  margin: 1rem;
+  color: white;
+  background-color: rgb(2, 56, 2);
+  
+}
+
+.classDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: clamp(400px, 80vw, 1200px);
+  margin: auto;
+  justify-content: center;
+}
+
+.header{
+  background-color: black;
+  color:white;
+  text-align:center
+}
+.link{
+  color:white;
+  text-decoration: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
